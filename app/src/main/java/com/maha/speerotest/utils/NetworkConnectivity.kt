@@ -1,4 +1,4 @@
-package com.maha.speerotest.util
+package com.maha.speerotest.utils
 
 import android.content.Context
 import android.net.ConnectivityManager

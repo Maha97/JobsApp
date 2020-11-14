@@ -1,8 +1,7 @@
-package com.maha.speerotest.util
+package com.maha.speerotest.utils
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.maha.speerotest.data.remote.ApiHelper
 import com.maha.speerotest.data.repository.JobsRepository
 import com.maha.speerotest.ui.home.ui.home.HomeViewModel
 

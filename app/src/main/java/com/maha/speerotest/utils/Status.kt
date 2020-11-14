@@ -1,4 +1,4 @@
-package com.maha.speerotest.util
+package com.maha.speerotest.utils
 
 enum class Status {
     SUCCESS,

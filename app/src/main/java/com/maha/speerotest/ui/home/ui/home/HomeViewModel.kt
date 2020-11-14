@@ -6,9 +6,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.maha.speerotest.data.model.Job
-import com.maha.speerotest.data.remote.ApiHelper
 import com.maha.speerotest.data.repository.JobsRepository
-import com.maha.speerotest.util.Resource
+import com.maha.speerotest.utils.Resource
 import kotlinx.coroutines.launch
 
 class HomeViewModel (private  val jobsRepository: JobsRepository): ViewModel() {

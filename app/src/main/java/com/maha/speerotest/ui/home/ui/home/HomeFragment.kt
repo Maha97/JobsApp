@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
-import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -16,13 +15,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.maha.speerotest.R
 import com.maha.speerotest.data.local.JobsDao
 import com.maha.speerotest.data.model.Job
-import com.maha.speerotest.data.remote.ApiHelperImplementer
 import com.maha.speerotest.data.remote.RetrofitBuilder
 import com.maha.speerotest.data.repository.JobsRepository
 import com.maha.speerotest.ui.home.JobAdapter
-import com.maha.speerotest.util.NetworkConnectivity
-import com.maha.speerotest.util.Status
-import com.maha.speerotest.util.ViewModelFactory
+import com.maha.speerotest.utils.NetworkConnectivity
+import com.maha.speerotest.utils.Status
+import com.maha.speerotest.utils.ViewModelFactory
 import javax.inject.Inject
 
 class HomeFragment : Fragment() {

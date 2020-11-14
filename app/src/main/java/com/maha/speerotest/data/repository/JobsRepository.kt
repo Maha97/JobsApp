@@ -3,7 +3,7 @@ package com.maha.speerotest.data.repository
 import com.maha.speerotest.data.local.JobsDao
 import com.maha.speerotest.data.model.Job
 import com.maha.speerotest.data.remote.ApiService
-import com.maha.speerotest.util.NetworkConnectivity
+import com.maha.speerotest.utils.NetworkConnectivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

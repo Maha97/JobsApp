@@ -1,11 +1,10 @@
 package com.maha.speerotest.di
 
 import android.app.Application
-import androidx.room.Room
 import com.maha.speerotest.data.local.JobsDao
 import com.maha.speerotest.data.remote.ApiService
 import com.maha.speerotest.data.repository.JobsRepository
-import com.maha.speerotest.util.NetworkConnectivity
+import com.maha.speerotest.utils.NetworkConnectivity
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
